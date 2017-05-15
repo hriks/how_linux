@@ -25,8 +25,10 @@ vim ~/.bashrc
 
 and copy this to last line of the file
 
-```export PROJECT_HOME=~/.virtualenvs
 ```
+export PROJECT_HOME=~/.virtualenvs
+```
+
 ```
 . /usr/local/bin/virtualenvwrapper.sh
 ```
