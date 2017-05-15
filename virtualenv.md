@@ -9,7 +9,7 @@ sudo pip install virtualenv
 ```
 
 ```
-Sudo pip install virtualwrapper
+Sudo pip install virtualenvwrapper
 ```
 
 After install virtualenv and virtualwappers
@@ -22,7 +22,11 @@ To open bashrc
 ```
 vim ~/.bashrc
 ```
+# Create directory for project 
 
+```
+mkdir ~/.virtualenvs
+```
 and copy this to last line of the file
 
 ```
@@ -36,7 +40,7 @@ export PROJECT_HOME=~/.virtualenvs
 # To Create a virtualenv
 ```
 mkproject PROJECTNAME
-'''
+```
 
 # To workon a virtualenv
 ```
